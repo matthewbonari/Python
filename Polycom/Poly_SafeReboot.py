@@ -55,6 +55,7 @@ def main():
 
     if (answer == 'Y' or answer == 'y'):
         print("Starting")
+        #add parameter to reboot module to pass validated subnet
         reboot()
     else:
         return
